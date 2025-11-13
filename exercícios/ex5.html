@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exercício 5</h1>
+    <p id="mensagem"></p>
+    
+    <script>
+        let numero1= prompt("Digite um número: ")
+        let numero2= prompt("Digite outro número: ")
+
+        numero1= Number(numero1);
+        numero2= Number(numero2);
+
+        let soma= numero1+numero2;
+
+        document.getElementById('mensagem').innerHTML = `A soma é ${soma}.`
+
+    </script>
+</body>
+</html>
